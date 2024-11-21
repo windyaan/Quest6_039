@@ -97,6 +97,13 @@ fun RencanaStudyView(
                         topStart = 15.dp
                     )
                 )
-        )
+                .fillMaxSize(),
+        ){
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(16.dp)
+            ) {  }
+        }
     }
 }
