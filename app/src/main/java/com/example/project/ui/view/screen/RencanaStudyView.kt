@@ -161,6 +161,8 @@ fun RencanaStudyView(
                         fontSize = 10.sp
                     )
                 }
+                Spacer(modifier = Modifier.padding(8.dp))
+
             }
         }
     }
