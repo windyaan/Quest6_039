@@ -2,6 +2,7 @@ package com.example.project.ui.view.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -123,6 +124,11 @@ fun RencanaStudyView(
                         chosenDropdown = it
                     },
                 )
+                Spacer(modifier = Modifier.padding(8.dp))
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {  }
             }
         }
     }
