@@ -107,6 +107,11 @@ fun MahasiswaFormView(
                         horizontalAlignment = Alignment.CenterHorizontally
                     ){
                         Text(
+                            text = "Masukkan Data Kamu",
+                            fontWeight = FontWeight.Bold,
+                            fontSize = 19.sp
+                        )
+                        Text(
                             text = "Isi sesuai data yang kamu daftarkan",
                             fontWeight = FontWeight.Light
                         )
