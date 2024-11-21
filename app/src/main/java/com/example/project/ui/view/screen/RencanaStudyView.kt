@@ -16,6 +16,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Notifications
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.RadioButton
@@ -54,7 +55,7 @@ fun RencanaStudyView(
     var pilihanKelas by remember {
         mutableStateOf("")
     }
-    var listData: MutableList<String> = mutableListOf(chosenDropdown.pilihanKelas)
+    var listData: MutableList<String> = mutableListOf(chosenDropdown, pilihanKelas)
     Column (
         modifier = Modifier
             .fillMaxSize()
@@ -142,6 +143,8 @@ fun RencanaStudyView(
                     }
                 }
                 Spacer(modifier = Modifier.padding(8.dp))
+                HorizontalDivider()
+
             }
         }
     }
