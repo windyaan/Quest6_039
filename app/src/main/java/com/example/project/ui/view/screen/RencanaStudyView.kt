@@ -153,7 +153,7 @@ fun RencanaStudyView(
                     Checkbox(
                         checked = checked,
                         onCheckedChange = { checked = it },
-                        enabled = chosenDropdown.isNotBlank() && pilihankelas.isNotBlank()
+                        enabled = chosenDropdown.isNotBlank() && pilihanKelas.isNotBlank()
                     )
                 }
             }
