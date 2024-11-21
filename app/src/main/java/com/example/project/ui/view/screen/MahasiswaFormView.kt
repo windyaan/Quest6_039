@@ -33,6 +33,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.example.project.R
 
 @Composable
@@ -79,7 +80,7 @@ fun MahasiswaFormView(
                 Text(
                     text = "Universitas Muhammadiyah Yogyakarta" ,
                     color = Color.Red,
-                    fontSize = 15.dp,
+                    fontSize = 15.sp,
                     fontWeight = FontWeight.Bold
                 )
                 Text(
@@ -87,7 +88,7 @@ fun MahasiswaFormView(
                     color = Color.White,
                     fontWeight = FontWeight.Bold
                 )
-                Spacer(modifier = Modifier.padding(start = 16.dp))
+                Spacer(modifier = Modifier.padding(top = 16.dp))
                 Box(
                     modifier= Modifier
                         .background(

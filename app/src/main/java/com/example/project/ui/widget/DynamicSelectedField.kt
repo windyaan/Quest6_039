@@ -22,7 +22,7 @@ fun DynamicSelestedTextField(
     selectedValue: String,
     options: List<String>,
     label: String,
-     onValueChangeEvent: (String)-> Unit,
+    onValueChangeEvent: (String)-> Unit,
     modifier: Modifier = Modifier
 ){
     var expanded by remember{
