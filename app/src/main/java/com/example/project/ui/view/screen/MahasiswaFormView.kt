@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material3.Button
@@ -154,7 +155,7 @@ fun MahasiswaFormView(
                             singleLine = true,
                             shape = RoundedCornerShape(50.dp))
 
-                        Spacer(modifier = Modifier.padding(8.dp))
+                        Spacer(modifier = Modifier.padding(4.dp))
                         OutlinedTextField(
                             modifier = Modifier.fillMaxWidth(),
                             value = email,
@@ -162,12 +163,12 @@ fun MahasiswaFormView(
                             label = { Text(text = "Email Mahasiswa")},
                             leadingIcon = {
                                 Icon(
-                                    imageVector = Icons.Filled.Info,
+                                    imageVector = Icons.Filled.Email,
                                     contentDescription = ""
                                 )
                             },
                             keyboardOptions = KeyboardOptions(
-                                keyboardType = KeyboardType.Number,
+                                keyboardType = KeyboardType.Email,
                                 imeAction = ImeAction.Next
                             ),
                             singleLine = true,
