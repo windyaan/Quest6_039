@@ -105,7 +105,11 @@ fun RencanaStudyView(
                     .padding(16.dp)
             ) {
                 Text(text= "Pilih Mata Kuliah Peminatan", fontWeight = FontWeight.Bold)
-
+                Text (
+                    text= "Pilih pilih mata kuliah yang anda inginkan",
+                    fontSize = 12.sp,
+                    fontWeight = FontWeight.Light
+                )
 
             }
         }
