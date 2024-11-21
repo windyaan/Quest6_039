@@ -148,6 +148,9 @@ fun RencanaStudyView(
                     text = "Klausul Persetujuan Mahasiswa",
                     fontWeight = FontWeight.Bold
                 )
+                Row(verticalAlignment = Alignment.CenterVertically) {
+
+                }
             }
         }
     }
