@@ -1,6 +1,6 @@
 package com.example.project.model
 
 data class RencanaStudi(
-    val matakuliah:String="",
+    val namaMK:String="",
     val kelas:String="",
 )
